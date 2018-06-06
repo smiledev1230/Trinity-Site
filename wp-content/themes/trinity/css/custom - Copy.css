@@ -1,0 +1,720 @@
+/* general settings */
+html,body{
+	-webkit-font-smoothing: antialiased;
+	 -moz-osx-font-smoothing: grayscale;
+	 text-rendering: optimizelegibility;
+	 height: 100%;
+}
+
+body{
+	line-height: 1.6;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	overflow-x: hidden;
+	/*background: url(../img/general/mainbg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+   height: 100%;
+  background-color: #000;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	color: #000;
+	line-height:30px;
+}
+
+.light-overlay{
+	padding: 10px 20px 10px 20px;
+	background-color: rgba(255, 255, 255, 0.9);
+	background: rgba(255, 255, 255, 0.9);
+ 	}
+ 	
+ 	.light-overlay-footer{
+	padding: 0px 15px 0px 15px;
+	background-color: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.9);
+ 	}
+
+ 	.light-overlay-content{
+	padding: 10px 5px 40px 20px;
+	background-color: white;
+	margin-bottom: 20px;
+ 	}
+ 	.blue-overlay-content{
+	padding: 10px 5px 40px 20px;
+	background-color:#106bb4;
+	margin-bottom: 20px;
+ 	}
+
+	.button-incubate{
+		margin-top: 15px;
+	}
+/* eof general settings */
+
+/* header */
+header{
+	background: #fff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+ }
+
+header h1,h2,h3,h4,h5,h6{
+	margin-top:0px;
+	padding-top: 0px;
+}
+
+header .logo{
+	max-height: 120px;
+	margin: 0 auto;
+}
+
+header .makeareservation{
+	background: transparent;
+	border-color: transparent;
+	margin-bottom: 0px;
+}
+
+header .makeareservation .toggle-reservation{
+	width: 100%;
+	margin: 0px;
+	border: 0px;
+	background: red;
+	color: #fff;
+	padding: 10px;
+ 	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+
+}
+
+header .makeareservation .toggle-reservation:hover{
+	background: #222;
+}
+
+header .search-social{
+	margin-bottom: 10px;
+}
+
+ header .topnav{
+	 background: transparent;
+	 border-color: transparent;
+	 margin-bottom: 0px;
+ }
+
+ header .topnav  .toggle-topnav{
+	width: 100%;
+	margin: 0px;
+	border: 0px;
+	background: #022d93;
+	color: #fff;
+	padding: 10px;
+ 	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+
+}
+
+ header  .topnav .toggle-topnav:hover{
+	 background: #222;
+ }
+
+  header  .topnav .navbar-nav>li>a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+  header  .topnav .navbar-nav>li>a:hover{
+	  color: #000;
+  }
+
+ header  .topnav .navbar-nav{
+	 margin-left: -10px;
+ }
+
+ .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	 color: #000;
+	 background: transparent;
+ }
+
+ .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	 background: transparent;
+	 color: #000;
+ }
+
+  header  .topnav .dropdown-menu{
+	  background: #007fbd;
+  }
+
+    header  .topnav .dropdown-menu>li>a{
+	    color: #fff;
+    }
+
+    header  .topnav .dropdown-menu>li>a:hover{
+	    background: transparent;
+    }
+
+
+ header  .topnav .caret{
+	 display: none;
+ }
+ /* eof header */
+
+ /* slider */
+ .slider{
+	 color: #fff;
+	 text-align: center;
+	 font-size: 30px;
+	  font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+	margin-bottom: 30px;
+ }
+
+ /* eof slider */
+
+ /* footer */
+
+ footer{
+	 background: #022d93;
+	 color: #fff;
+	 padding-top: 25px;
+  }
+
+ footer h3{
+	 color: #fff;
+ }
+
+ footer  [class^="col-"]{
+	 margin-bottom: 15px;
+ }
+
+ footer .footer-thumb{
+	 max-width: 130px;
+	 margin: 0 auto;
+ }
+
+.footer-latest-news a{
+	 width: 100%;
+	 display: block;
+	 padding-bottom: 3px;
+	 margin-bottom: 3px;
+	 border-bottom: 1px dotted #ccc;
+	 font-size:14px;
+ }
+
+ .copyright{
+	 font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+	color:#fff;
+	text-transform: uppercase;
+	margin-top: 20px;
+  }
+
+ .copyright [class^="col-"]{
+	 margin-bottom: 15px;
+ }
+
+.copyright .privacy{
+	text-align: right;
+}
+
+ .copyright .privacy a{
+	 color:#fff;
+ }
+
+ .copyright .privacy a:hover{
+	 text-decoration: underline;
+	 color: #fff;
+ }
+
+ /* eof footer */
+
+ /* custom post types */
+ .custom-posts{
+	 margin-bottom: 10px;
+ }
+
+  .custom-posts .row{
+	  margin-left: 0px;
+	  margin-right: 0px;
+  }
+
+  .custom-posts .cycloneslider-template-standard{
+	  margin-bottom: 0px;
+  }
+ .custom-posts .custom-post-box{
+	background: #fff;
+ 	border: 1px solid #ccc;
+ 	padding-top: 15px;
+ 	padding-left: 15px;
+ 	padding-right: 15px;
+	padding-bottom:0px;
+	margin:0px;
+	min-height:335px;
+}
+
+ .custom-posts .custom-post-box img{
+	 max-height: 100px;
+ }
+
+/* eof custom post types */
+
+/* latest news */
+.latest-news{
+	margin-top: 20px;
+}
+
+.latest-news-post{
+	margin-bottom: 15px;
+}
+
+.latest-news-post .btn-primary{
+	margin-top: 0px;
+}
+/* eof latest news */
+
+/* pagination */
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+	color: #fff;
+	text-decoration:none;
+}
+
+.navigation li {
+	display: inline;
+}
+
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+	background-color: #6FB7E9;
+	border-radius: 3px;
+	cursor: pointer;
+	padding: 12px;
+	padding: 0.75rem;
+}
+
+.navigation li a:hover,
+.navigation li.active a {
+	background-color: #3C8DC5;
+}
+/* eof pagination */
+
+ /**
+ * 8.0 Alignments
+ */
+
+.alignleft {
+	display: inline;
+	float: left;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+}
+
+.aligncenter {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+blockquote.alignleft,
+.wp-caption.alignleft,
+img.alignleft {
+	margin: 0.4em 1.6em 1.6em 0;
+}
+
+blockquote.alignright,
+.wp-caption.alignright,
+img.alignright {
+	margin: 0.4em 0 1.6em 1.6em;
+}
+
+blockquote.aligncenter,
+.wp-caption.aligncenter,
+img.aligncenter {
+	clear: both;
+	margin-top: 0.4em;
+	margin-bottom: 1.6em;
+}
+
+.wp-caption.alignleft,
+.wp-caption.alignright,
+.wp-caption.aligncenter {
+	margin-bottom: 1.2em;
+}
+
+.cycloneslider-template-standard .cycloneslider-slide img{
+ 	border: 1px solid #ccc;}
+
+.pagination {
+clear:both;
+padding:20px 0;
+position:relative;
+font-size:11px;
+line-height:13px;
+color:#fff;
+}
+
+.pagination a{
+	color: #fff;
+}
+ 
+.pagination span, .pagination a  {
+display:block;
+float:left;
+margin: 2px 2px 2px 0;
+padding:6px 9px 5px 9px;
+text-decoration:none;
+width:auto;
+color:#fff;
+background: #555;
+}
+
+ .pagination a:visited{
+	 color: #fff;
+ }
+ 
+.pagination a:inactive{
+color:#fff;
+	}
+ 
+.pagination a:hover{
+color:#fff;
+background: #3279BB;
+}
+ 
+.pagination .current{
+padding:6px 9px 5px 9px;
+background: #3279BB;
+color:#fff;
+}
+.entry-header{margin:0;padding:0;padding-top:25px;background-color:transparent}
+.page-header{background-color:transparent}
+
+.add_to_cart_button, .single_add_to_cart_button.button.alt
+{
+  box-shadow: #29bbff;
+  background-image: #0368b5;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+  background-color: #0368b5;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #0b0e07;
+  border-right-color: #0b0e07;
+  border-bottom-color: #0b0e07;
+  border-left-color: #0b0e07;
+  border-image-source: none;
+  border-image-slice: 100% 100% 100% 100%;
+  border-image-width: 1 1 1 1;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: stretch stretch;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: arial;
+  font-size: 15px;
+  padding-top: 2px;
+  padding-right: 10px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-shadow: #263666;
+  
+}
+
+.add_to_cart_button:hover, .single_add_to_cart_button.button.alt:hover
+{
+  background-image: #0688fa;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+  background-color: #0688fa;
+}
+#shipping_method li label{padding-left:25px;font-weight:normal;font-size:12px}
+h5.price{display:none}
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals
+{
+  width: 58%;
+}
+.input-text.qty.text
+{
+  width: 40px;
+  height:23px;float:left;margin-right:5px;
+}
+
+/*a:link{text-decoration:underline;color:#333333}
+a:visited{color:#333333}*/
+
+.past-events{height:520px;overflow-y:scroll}
+h5{line-height:18px;margin:0}
+small{line-height:70%}
+.videosidebar {
+line-height:1;
+   height: 500px;
+   overflow: auto;
+}
+.title h3{text-transform:capitalize}
+.socmediaicons{text-align: right;position: absolute;bottom: 0;float:right;right:0;padding-bottom:15px;padding-right:15px}
+
+.socmediatop{font-size:38px !important;margin-top:-1px}
+.mobile-hr {
+    display: none;
+}
+
+	.hidedesktop{font-weight:bold;color:white;text-align:center;}
+header .topnav .navbar-nav{margin-top:13px}
+
+.col-hr {
+    min-height: 315px;
+}
+
+
+
+/* blue band */
+.blue-band{
+	background: #0066cc;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	width:100%;
+}
+
+.blue-band h1,.blue-band h2,.blue-band h3{
+	color: #fff;
+}
+
+.blue-band i{
+	color: red;
+}
+
+.blue-band a{
+	color: #fff;
+}
+
+.blue-band a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+/* eof blue band */
+
+/* restaurants front page */
+.restaurants-fp{
+ 
+	margin-bottom: 30px;
+	 background: url(http://www.trinitygroves.com/wp-content/uploads/2016/01/fpbg1.jpg) no-repeat center center fixed; 
+  padding-top: 25px;
+}
+
+.restaurants-fp  [class^="col-"]{
+	 margin-bottom: 25px;
+	 margin-top: -25px;
+	 
+ }
+
+.restaurants-fp1{
+	 background: url(../img/fpbg/bga.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.restaurants-fp1  [class^="col-"]{
+ }
+ 
+.restaurants-fp3{
+	margin-bottom: 30px;
+	 background: url(../img/fpbg/fb2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.restaurants-fp3  [class^="col-"]{
+ }
+/* eof restaurants front page */
+
+/* three logos front page */
+.three-logos-fp{
+	background: #106bb4;
+	margin-bottom: 60px;
+	padding-top:20px;
+	max-width:1170px;
+	margin:0 auto;
+	margin-bottom:60px;
+}
+
+.three-logos-fp .cock-logo{
+	margin-top: 30px;
+}
+
+.three-logos-fp p{
+	margin-top: -20px;
+	margin-bottom: -50px;
+}
+
+.three-logos-fp img{
+	max-height: 160px;
+}
+/* eof three logos front page */
+
+/* footer titles */
+.footer-box h4{
+	background: #fff;
+	color: #000;
+ 	padding: 5px 5px 5px 15px;
+	margin-top:0px;
+}
+
+.footer-box  [class^="col-"]{
+	 margin-bottom: 25px;
+	 padding: 0px;
+ }
+ 
+ .footer-col{
+	 padding: 15px;
+ }
+ .latest-news-post .title h3, h2{ color: #000; }
+ 
+.socmediaicons img{max-height:30px !important}
+/* eof footer titles */
+@media screen and (min-width:1199px) {
+	.hidedesktop{display:none}
+}
+@media screen and (min-width:992px) and (max-width: 1200px) {
+  /* put your css styles in here */
+    header .topnav .navbar-nav > li > a {
+        font-size: 14px;
+    }
+    .nav > li > a {
+         padding: 10px 8px;
+    }
+	
+header .topnav .navbar-nav{margin-top:10px}
+}
+@media screen and (min-width:768px) and (max-width: 992px) {
+    header .topnav .navbar-nav > li > a {
+        font-size: 10px;
+    }
+    .nav > li > a {
+         padding: 10px 8px;
+    }
+    .reservation-nav {
+        min-height: 175px !important;
+    }
+    header .logo { 
+        top: 29px;
+        position: relative; 
+    }
+	.hidedesktop{display:none}
+}
+
+@media screen and (min-width:768px) {
+	.hidedesktop{display:none}
+}
+@media screen and (max-width:768px) {
+    #searchform {
+        margin-bottom: 10px;
+    }
+    .reservation-nav {
+        min-height: 175px !important;
+    }
+	
+	.bannerh1{font-size:20px!important;line-height:30px!important;padding-top:0px!important;margin-top:5px!important}
+	.breakmobile{clear:both;display:block}
+	.bannerh2{padding-bottom:0px!important}
+	.blue-band{padding-top:0px!important;padding-bottom:0px!important;padding-right:0px!important}
+	#video{display:block!important}
+	#player{display:none!important}
+	#video-player,#hidevideo{display:none!important}
+}
+@media screen and (min-width:509px) and (max-width:767px) {
+    .desktop-hr {
+        display: none;
+    }
+    .mobile-hr {
+        display: block !important;
+    }
+    .w-50 {
+        width: 50% !important;
+        float: left;
+    }
+    .reservation-nav {
+        min-height: 175px !important;
+    }
+	
+	.hidedesktop{display:block;font-weight:bold;color:white;text-align:center;min-height:40px;}
+}
+
+@media screen and (max-width:480px) {
+    .app img{
+        margin-top: -3px !important;
+    }
+    .app strong{
+        font-size: 13px !important;
+    }
+    .col-hr {
+        width: 100%;
+    }
+    .bannerh1{font-size:16px;line-height:14px;}
+    .bannerh2{font-size:14px;line-height:14px;}
+    .bannerh3{font-size:12px;line-height:14px;}
+	.hidedesktop{display:block;color:white;text-align:center;font-weight:normal;min-height:40px;font-family: 'Open Sans', sans-serif;}
+	
+    .reservation-nav {
+		max-width:90%;
+    }
+.three-logos-fp p{
+	margin-top:-20px !important;
+	margin-bottom:-50px !important;
+	}
+	
+.restaurants-fp{ background:url(http://www.trinitygroves.com/wp-content/themes/trinity/img/general/smallbg.jpg) no-repeat scroll right top #000000 !important; -o-background-size: contain !important; -moz-background-size: contain !important; -webkit-background-size:contain !important; background-size: contain !important;    background-position: bottom; 
+}
+.icongap{height:195px !important}
+
+ 	.light-overlay-content{
+	padding: 10px 20px 40px 20px;
+ 	}
+ 	.blue-overlay-content{
+	padding: 10px 20px 40px 20px;
+ 	}
+}
+
+.nav>li>a{
+padding: 10px 10px;
+}

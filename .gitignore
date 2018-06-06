@@ -1,18 +1,52 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+*.log
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
 
-# Other files and folders
-.settings/
+/.htaccess
+/license.txt
+/readme.html
+/sitemap.xml
+/sitemap.xml.gz
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+.gitignore
+index.php
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+object-cache.php.apc
+object-cache.php.apc.disabled
+object-cache.php.bak
+object-cache.php.disabled
+__MACOSX
+trinitygroves
+trinitygroves.zip
+video
+wp-admin/*
+wp-content/plugins/*
+wp-content/ai1wm-backups/
+wp-content/ewww/
+wp-content/mu-plugins/
+wp-content/mu-plugins-orig/
+wp-content/updraft/
+wp-content/themes/*
+wp-includes/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+!wp-content/themes/trinity/

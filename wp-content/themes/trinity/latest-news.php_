@@ -1,0 +1,117 @@
+<?php
+/**
+
+	Template Name:  LatestNews
+ * The template for displaying pages
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages and that
+ * other "pages" on your WordPress site will use a different template.
+ *
+ * @package WordPress
+ * @subpackage Twenty_Fifteen
+ * @since Twenty Fifteen 1.0
+ */
+
+get_header(); ?>
+
+
+<div class="container light-overlay-content">
+	   <div class="row">
+		   <div class="col-lg-12">
+
+<h1>Latest News</h1>
+
+  <!-- custom post type restaurant !-->
+
+		 <?php
+  global $post;
+  $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+  $query_args  = array(
+    'post_type' => 'latestnews',	
+    'posts_per_page' => '10',
+      'order' => 'DESC',
+    'paged' => $paged
+
+  );
+  $the_query = new WP_Query( $query_args );
+	$counter=0;
+?>
+
+
+  		<div class="latest-news">
+        
+	<div class="entry-content">
+		<?= get_post_field('post_content', $post->ID) ?>
+ 	</div><br>
+    <br>
+
+
+	  			<!-- left col !-->
+                <div class="row">
+ <?php if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); // run the loop ?>
+
+
+
+
+	<div class="col-lg-6 latest-news-post">
+		
+		<!-- title !-->
+                    <div class="title">
+                    	<h3><?php the_title(); ?></h3>
+                    </div>
+                    <!-- eof title !-->
+					
+                     <!-- excerpt box !-->
+                     
+ 						<?php the_excerpt(''); ?>
+                     <!-- eof excerpt box !-->
+
+<?php if(!$post->post_excerpt) {echo'<p><a href="';
+the_permalink();
+echo '" >
+                    <button type="button" class="btn btn-primary" style="padding-top:0px!important;margin-top:0px!important">Read More</button>
+                    </a>
+                    <!-- eof read more !-->
+';
+}
+?>   
+                    </div>
+<?php $counter++;
+                  if ($counter % 2 == 0) {
+                  echo '</div><div class="row">';
+                }
+                endwhile;  ?>
+
+<?php if (function_exists("pagination")) {
+	echo '<div class="col-lg-12">';
+    pagination($the_query->max_num_pages);
+	echo '</div></div>';
+} ?>
+
+
+<?php else: ?>
+  <article>
+    <h1>Sorry...</h1>
+    <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+  </article>
+<?php endif; ?>
+		
+	</div>
+	</div>
+	<!-- eof left col !-->
+  		</div>
+   		
+ 
+
+</div>
+     <!-- eof custom post type restaurant !-->
+
+
+
+		   </div>
+	   </div>
+</div>
+
+
+<?php get_footer(); ?>
