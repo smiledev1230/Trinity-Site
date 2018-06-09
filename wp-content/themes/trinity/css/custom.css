@@ -80,8 +80,7 @@ header h1,h2,h3,h4,h5,h6{
 
 header .logo{
 	max-height:70px;
-	float: right;
-    margin-right: 480px;
+	margin-left: 20%;
 }
 
 header .makeareservation{
@@ -622,6 +621,7 @@ header .topnav .navbar-nav{margin-top:5px}
  .latest-news-post .title h3, h2{ color: #000; }
  
 .socmediaicons img{max-height:30px !important}
+
 /* eof footer titles */
 @media screen and (min-width:1199px) {
 	.hidedesktop{display:none}

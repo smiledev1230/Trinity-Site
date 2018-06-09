@@ -244,28 +244,31 @@ get_header(); ?>
               </div>
     <div class="col-md-2 col-sm-3 col-xs-4 icon-container">       <a href="/restaurants/#Chino-Chinatown" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/restaurants/5.png" class="img-responsive center-block"></a><div class="hidedesktop">Chino Chinatown</div>   
               </div> 
-              <div class="col-md-2 col-sm-3 col-xs-4 icon-container"><a href="/restaurants/#The-Hall-Bar-&-Grill" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/restaurants/6.png" class="img-responsive center-block"></a><div class="hidedesktop">The Hall</div>
+              
+              <div class="col-md-2 col-sm-3 col-xs-4 icon-container"><a href="/restaurants/#Dulcet-Cafe" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/restaurants/dulcet.png" class="img-responsive center-block"></a><div class="hidedesktop">Dulcet Café & Bakery</div>
            </div>
    
-    <div class="col-md-2 col-sm-3 col-xs-4 icon-container"><a href="/retail/#Kate-Weiser-Chocolate" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/restaurants/7.png" class="img-responsive center-block"></a><div class="hidedesktop">Kate Weiser</div>
+    <div class="col-md-2 col-sm-3 col-xs-4 icon-container"><a href="/restaurants/#The-Hall-Bar-&-Grill" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/restaurants/6.png" class="img-responsive center-block"></a><div class="hidedesktop">The Hall</div>
                </div>
-    <div class="col-md-2 col-sm-3 col-xs-4 icon-container"><a href="/restaurants/#LUCK" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/restaurants/9.png" class="img-responsive center-block"></a><div class="hidedesktop">LUCK</div>
+    <div class="col-md-2 col-sm-3 col-xs-4 icon-container"><a href="/retail/#Kate-Weiser-Chocolate" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/restaurants/7.png" class="img-responsive center-block"></a><div class="hidedesktop">Kate Weiser</div>
 
            </div>
-    <div class="col-md-2 col-sm-3 col-xs-4 icon-container">	<a href="/restaurants/#Saint-Rocco’s" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/restaurants/11a.png" class="img-responsive center-block"></a><div class="hidedesktop">Saint-Rocco’s</div>
+    <div class="col-md-2 col-sm-3 col-xs-4 icon-container">	<a href="/restaurants/#LUCK" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/restaurants/9.png" class="img-responsive center-block"></a><div class="hidedesktop">LUCK</div>
           </div>
-    <div class="col-md-2 col-sm-3 col-xs-4 icon-container">           <a href="/restaurants/#Souk-Mediterranean-Bistro-&#038;-Bar" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/restaurants/12.png" class="img-responsive center-block"></a><div class="hidedesktop">Souk</div>
-              </div> <div class="col-md-2 col-sm-3 col-xs-4 icon-container"><a href="/restaurants/#Sushi-Bayashi" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/restaurants/13.png" class="img-responsive center-block"></a><div class="hidedesktop">Sushi Bayashi</div>
-               </div> <div class="col-md-2 col-sm-3 col-xs-4 icon-container">             <a href="/restaurants/#Tapas-Castile" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/restaurants/tapas.png" class="img-responsive center-block"></a><div class="hidedesktop">Tapas Castile</div>  
+    <div class="col-md-2 col-sm-3 col-xs-4 icon-container">         <a href="/restaurants/#Saint-Rocco’s" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/restaurants/11a.png" class="img-responsive center-block"></a><div class="hidedesktop">Saint-Rocco’s</div>
+              </div> <div class="col-md-2 col-sm-3 col-xs-4 icon-container">  <a href="/restaurants/#Souk-Mediterranean-Bistro-&#038;-Bar" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/restaurants/12.png" class="img-responsive center-block"></a><div class="hidedesktop">Souk</div>
+               </div> <div class="col-md-2 col-sm-3 col-xs-4 icon-container">  <a href="/restaurants/#Sushi-Bayashi" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/restaurants/13.png" class="img-responsive center-block"></a><div class="hidedesktop">Sushi Bayashi</div>
               </div>
    
    
-    <div class="col-md-2 col-sm-3 col-xs-4 icon-container"><a href="/restaurants/#V-Eats-Modern-Vegan" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/restaurants/14.png" class="img-responsive center-block"></a><div class="hidedesktop">V Eats</div>
+    <div class="col-md-2 col-sm-3 col-xs-4 icon-container">  <a href="/restaurants/#Tapas-Castile" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/restaurants/tapas.png" class="img-responsive center-block"></a><div class="hidedesktop">Tapas Castile</div>  
            </div>
-    <div class="col-md-2 col-sm-3 col-xs-4 icon-container">    <a href="http://www.trinitygroves.com/neighbor/#3015-at-Trinity-Groves" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/fplogos/2a.png" class="img-responsive center-block" style="margin:0 auto"></a><div class="hidedesktop">3015</div>
+     <div class="col-md-2 col-sm-3 col-xs-4 icon-container">  
+    <a href="/restaurants/#V-Eats-Modern-Vegan" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/restaurants/14.png" class="img-responsive center-block"></a><div class="hidedesktop">V Eats</div>
             </div>
-    <div class="col-md-2 col-sm-3 col-xs-4 icon-container">        <a href="http://trinitygroves.com/neighbors/#The-Network-Bar" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/fplogos/tnba.png" class="img-responsive center-block"  style="margin:0 auto"></a>  <div class="hidedesktop">The Network Bar</div>   
-              </div><div class="col-md-2 col-sm-3 col-xs-4 icon-container">   <a href="https://www.trinitygroves.com/neighbors/" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/fplogos/3a.png" class="img-responsive center-block" style="margin:0 auto" ></a><div class="hidedesktop">Off-Site Kitchen</div>
+    <div class="col-md-2 col-sm-3 col-xs-4 icon-container">       <a href="http://www.trinitygroves.com/neighbor/#3015-at-Trinity-Groves" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/fplogos/2a.png" class="img-responsive center-block" style="margin:0 auto"></a><div class="hidedesktop">3015</div>
+              </div><div class="col-md-2 col-sm-3 col-xs-4 icon-container">   <a href="http://trinitygroves.com/neighbors/#The-Network-Bar" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/fplogos/tnba.png" class="img-responsive center-block"  style="margin:0 auto"></a>  <div class="hidedesktop">The Network Bar</div> 
+  </div> <div class="col-md-2 col-sm-3 col-xs-4 icon-container"> <a href="https://www.trinitygroves.com/neighbors/" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/fplogos/3a.png" class="img-responsive center-block" style="margin:0 auto" ></a><div class="hidedesktop">Off-Site Kitchen</div>
   </div> <div class="col-md-2 col-sm-3 col-xs-4 icon-container"><a href="http://www.trinitygroves.com/neighbor/#Erin-Cluley-Gallery" class="hvr-float-shadow"><img src="<?php bloginfo('template_url'); ?>/img/fplogos/ecga.png" class="img-responsive center-block" ></a><div class="hidedesktop">Erin Cluley Gallery</div>
 </div>
 </div>

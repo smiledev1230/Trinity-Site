@@ -1,3 +1,11 @@
+<style>
+
+a.anchorlinkscafe {
+  display: block; 
+  position: relative; 
+  top: -170px; 
+  visibility: hidden; }
+ </style>
 <?php
 
 /**

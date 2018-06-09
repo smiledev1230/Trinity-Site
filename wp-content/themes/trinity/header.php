@@ -209,7 +209,8 @@ header .row.searchdiv {
   float: right;
 }
 header .search-box {
-  float: left; 
+  right: 362px;
+  position: absolute;
 }
 header .socmediadiv {
   float: right;
@@ -255,6 +256,7 @@ body{
     float: left;
   }
   header .search-box {
+    left: 0px;
     margin-left: 50px;
   }
   header .vist-right-button {
@@ -342,11 +344,6 @@ body{
                                   <a href="http://www.pinterest.com/trinitygroves/" target="_blank"><i class="fa fa-pinterest-square fa-2x socmediatop"></i></a>
                                   <a href="https://twitter.com/trinitygroves" target="_blank"> <i class="fa fa-twitter-square fa-2x socmediatop"></i></a>
                                   <a href="http://www.trinitygroves.com/blog/" > <i class="fa fa-rss-square fa-2x socmediatop"></i></a>
-                                  <span class="appdownload">
-                                  <a href="https://itunes.apple.com/us/app/trinity-groves/id1073740899?ls=1&mt=8" target="_blank" class="app">
-                                      <img src="http://www.trinitygroves.com/wp-content/uploads/2016/05/Download_on_the_App_Store_Badge.png" alt="get app now" height="33px" style="vertical-align:top;top:0;margin-top:1px" /></a>
-                                      <a href="https://play.google.com/store/apps/details?id=com.younity360.trinity_groves" target="_blank" class="app">
-                                      <img src="http://www.trinitygroves.com/wp-content/uploads/2016/06/googleplay.png" alt="get app now" height="33px" style="vertical-align:top;top:0;margin-top:1px" /></a></span>
                               </div>
                        </div>
                    </div>

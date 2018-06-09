@@ -10,7 +10,7 @@ wp-content/uploads/
 wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
 
-/.htaccess
+.htaccess
 /license.txt
 /readme.html
 /sitemap.xml
@@ -46,6 +46,8 @@ wp-content/ewww/
 wp-content/mu-plugins/
 wp-content/mu-plugins-orig/
 wp-content/updraft/
+wp-content/aiowps_backups/
+wp-content/wflogs/
 wp-content/themes/*
 wp-includes/
 
