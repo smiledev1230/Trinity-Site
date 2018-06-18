@@ -237,7 +237,7 @@ header .search-social{
 }
 
  .copyright .privacy a{
-	 color:#fff;
+	 color:#000!important;
  }
 
  .copyright .privacy a:hover{
@@ -608,6 +608,11 @@ header .topnav .navbar-nav{margin-top:5px}
 	color: #000;
  	padding: 5px 5px 5px 15px;
 	margin-top:0px;
+}
+.footer-box h4 a {
+    float: right;
+    font-size: 12px;
+    color: #337ab7;
 }
 
 .footer-box  [class^="col-"]{

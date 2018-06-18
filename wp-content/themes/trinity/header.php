@@ -249,6 +249,10 @@ header.fixed-header{
 body{
   padding-top:120px;
 }
+.textwidget #eapps-instagram-feed-1 {
+  width: auto;
+  margin: 0px 15px;
+}
 @media(max-width: 1199px) {
   header .logo {
     margin-left: 50px;
@@ -273,7 +277,7 @@ body{
     padding-top: 70px;
   }
   header .logo {
-    margin-left: 30px;
+    margin-left: 20px;
   }
   .navbar-default {
       background-color: #fff;
@@ -292,9 +296,9 @@ body{
       border-color: #368c62;
   }
 }
-@media(max-width:450px) {
-  header .logo {
-    height: 70px;
+@media(max-width:650px) {
+  body {
+      padding-top: 54px;
   }
 }
     </style>
@@ -552,7 +556,7 @@ body{
            <div class="hidden-sm hidden-md hidden-lg mobile-menu">
              <nav class="navbar navbar-default  navbar-fixed-top">
                 <div class="container-fluid">
-                  <!-- Brand and toggle get grouped for better mobile display --><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ns-navbar" aria-expanded="false" style="margin-right: 20px;height: 38px;">
+                  <!-- Brand and toggle get grouped for better mobile display --><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ns-navbar" aria-expanded="false" style="margin-right: 19px;height: 38px;">
                       <span class="sr-only">Toggle navigation</span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
